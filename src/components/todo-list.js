@@ -6,9 +6,9 @@ const TodoList = () => {
 
     return (
         <ul>
-            <li><TodoListItem/></li>
-            <li><TodoListItem/></li>
-            <li><TodoListItem/></li>
+            <li><TodoListItem label='Выпить кофе'/></li>
+            <li><TodoListItem label='Создать приложение' important/></li> {/* important={true} */}
+            <li><TodoListItem label='Отдохнуть'/></li>
         </ul>
     );
 }
